@@ -188,12 +188,12 @@ footer ul li a:hover{
 }
 
 .social-links{
-  text-align: center;
+  align-items: center;
   line-height: 40px;
   transition: all .5s ease;
   display: flex;
   justify-content: space-evenly;
-  margin-right: 20rem;
+  margin-right: auto;
 }
 
 .social-links a:hover{
@@ -201,12 +201,12 @@ footer ul li a:hover{
 }
 
 
-/* Mujer.html */
+/* Productos.html */
 .container {
   text-align: center;
 }
 
-.title-mujer {
+.title-products {
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -218,18 +218,44 @@ footer ul li a:hover{
   margin-bottom: 20px;
 }
 
-.women-img{
+.products-img{
   flex-basis: calc(25% - 10px);
 }
 
-.women-img img {
+.products-img img {
   width: 100%;
   height: auto;
 }
 
-.women-img img:hover {
+.products-img img:hover {
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
+}
+
+
+/* Contacto.html */
+
+.parrafo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.mapa{
+  display: flex;
+  justify-content: center;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.redes a{
+  padding: 10px;
 }
 
 
