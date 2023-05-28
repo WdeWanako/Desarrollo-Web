@@ -1,0 +1,366 @@
+/* Fuentes de Letra */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+/* Selector universal */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header - Nav Bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffdd00;
+  color: #000000;
+  padding: 1rem;
+  min-height: 120px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 80px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.logo-nombre{
+  font-size: 2rem;
+  margin: 1;
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  left: 40%;
+  top: auto;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding-right: 10px;
+  margin-right: 1.2rem;
+  font-weight: 300;
+}
+
+
+nav a:hover  {
+  background-color: #fff;
+  color: #333;
+  transform: scale(1.2);
+}
+
+
+/* Hero */
+
+.carousel-caption{
+  bottom: 580px;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+
+/* Sobre Nosotros */
+
+.subtitulo{
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding: 15px;
+}
+
+.conteiner-aboutus{
+  display: flex;
+  padding: 25px;
+  color: black;
+  align-items: center;
+}
+
+.aboutUs-Img{
+  margin-right: 20px;
+}
+
+.aboutUs-texto{
+  padding-left: 25px;
+}
+
+/* Grid */
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 5px;
+}
+
+
+
+.grid-item img:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.img-title {
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;   
+  bottom: 0;           
+  color: white;
+  width: 100%;
+  font-size: 50px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;           
+  transition: 0.6s;
+}
+
+.container:hover .title {
+/*becomes visible on hover*/
+  opacity: 1;
+  text-transform: uppercase;       
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+footer h3 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #343a40;
+}
+
+footer ul li a:hover {
+  color: #6c757d;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer hr {
+  border-color: #dee2e6;
+}
+
+footer p.text-center {
+  margin-top: 20px;
+  color: #343a40;
+}
+
+footer ul li a:hover{
+  color: darkgoldenrod;
+  padding-left: 7px;
+}
+
+.social-links{
+  align-items: center;
+  line-height: 40px;
+  transition: all .5s ease;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: auto;
+}
+
+.social-links a:hover{
+  transform: scale(1.20);
+}
+
+
+/* PAGINAS */
+
+/* Productos.html */
+.container {
+  text-align: center;
+}
+
+.title-products {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.products-img{
+  flex-basis: calc(25% - 10px);
+}
+
+.products-img img {
+  width: 100%;
+  height: auto;
+}
+
+.products-img img:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* Contacto.html */
+
+/* Carrousel */
+
+.conteiner-contacto{
+  max-width: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.parrafo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.mapa{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+
+.redes a{
+  padding: 10px;
+}
+
+
+/* Responsive */
+
+/* Header */
+@media (max-width: 1200px){
+
+  header{
+    flex-direction: column;
+   }
+
+   .logo-nombre{
+    position: unset;
+    text-decoration: none;
+   }
+  
+   nav{
+    padding: 0;
+   }
+}
+
+/* Grid-Footer index */
+@media (max-width: 767px) {
+
+  *{
+    text-decoration: none;
+  }
+
+  /* Sobre Nosotros*/
+
+  .conteiner-aboutus{
+    flex-direction: column;
+  }
+
+  .aboutUs-Img{
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .grid-item {
+    margin-bottom: 20px;
+  }
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+  }
+
+
+  footer .row {
+    flex-direction: column;
+  }
+
+
+/* Grid-Mujer  */
+  .image-grid {
+    flex-direction: column;
+  }
+
+  .mapa{
+    padding-left: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
