@@ -1,0 +1,55 @@
+/* Header - Nav Bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-header;
+    color: $negro;
+    padding: 1rem;
+    min-height: 120px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+  
+    .logo {
+      display: flex;
+      align-items: center;
+  
+      .logo-img {
+        height: 80px;
+        margin-right: 20px;
+        padding-left: 20px;
+      }
+  
+      .logo-nombre {
+        font-size: 2rem;
+        margin: 1;
+        font-family: $fuente-titulo;
+        position: absolute;
+        left: 40%;
+        top: auto;
+        font-weight: bold;
+      }
+    }
+  
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 2rem;
+      font-family: $fuente-secundaria;
+  
+      .nav-link {
+        text-decoration: none;
+        font-size: 1.2rem;
+        padding-right: 10px;
+        margin-right: 1.2rem;
+        font-weight: 300;
+  
+        &:hover {
+          background-color: #fff;
+          color: #333;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }

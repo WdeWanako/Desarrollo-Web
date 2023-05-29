@@ -1,0 +1,82 @@
+/* Hero */
+.carousel-caption {
+    bottom: 580px;
+  
+    h5 {
+      font-size: 45px;
+      text-transform: uppercase;
+      margin-top: 25px;
+    }
+  
+    p {
+      width: 60%;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.9;
+    }
+  }
+
+/* Sobre Nosotros */
+  .subtitulo{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 15px;
+  }
+
+  .conteiner-aboutus {
+    display: flex;
+    padding: 25px;
+    color: black;
+    align-items: center;
+  
+    .aboutUs-Img {
+      margin-right: 20px;
+    }
+  
+    .aboutUs-texto {
+      padding-left: 25px;
+    }
+  }
+
+  /* Grid */
+.grid-item {
+    position: relative;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+  }
+  
+  
+  
+  .grid-item img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .img-title {
+    background-color: rgb(0, 0, 0, 0.5);
+    position: absolute;   
+    bottom: 0;           
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;           
+    transition: 0.6s;
+  }
+  
+  .container:hover .title {
+  /*becomes visible on hover*/
+    opacity: 1;
+    text-transform: uppercase;       
+  }

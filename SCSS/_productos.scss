@@ -1,0 +1,32 @@
+/* PAGINAS */
+
+/* Productos.html */
+.container {
+    text-align: center;
+  
+    .title-products {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  
+    .image-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  
+      .products-img {
+        flex-basis: calc(25% - 10px);
+  
+        img {
+          width: 100%;
+          height: auto;
+  
+          &:hover {
+            transform: scale(1.05);
+            transition: all 0.5s ease-in-out;
+          }
+        }
+      }
+    }
+  }
