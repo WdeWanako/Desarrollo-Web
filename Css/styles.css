@@ -1,6 +1,12 @@
-/* Header - Nav Bar */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+.carousel-caption h5, header .logo .logo-nombre {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+/* Header - Nav Bar */
 header {
   display: flex;
   justify-content: space-between;
@@ -22,13 +28,10 @@ header .logo .logo-img {
   padding-left: 20px;
 }
 header .logo .logo-nombre {
-  font-size: 2rem;
   margin: 1;
-  font-family: "Playfair Display", serif;
   position: absolute;
   left: 40%;
   top: auto;
-  font-weight: bold;
 }
 header nav ul {
   display: flex;
@@ -55,7 +58,6 @@ header nav ul .nav-link:hover {
   bottom: 580px;
 }
 .carousel-caption h5 {
-  font-size: 45px;
   text-transform: uppercase;
   margin-top: 25px;
 }
@@ -225,6 +227,7 @@ footer .social-links a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .conteiner-contacto .redes {
   display: flex;
@@ -236,6 +239,20 @@ footer .social-links a:hover {
   padding: 10px;
 }
 
+.slide-logo {
+  animation-name: slide;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+}
+
+@keyframes slide {
+  0% {
+    translate: -100px;
+  }
+  100% {
+    translate: 0px;
+  }
+}
 /* Fuentes de Letra */
 /* Selector universal */
 html {

@@ -3,7 +3,7 @@
     bottom: 580px;
   
     h5 {
-      font-size: 45px;
+      @extend %titulo;
       text-transform: uppercase;
       margin-top: 25px;
     }
@@ -19,9 +19,7 @@
 /* Sobre Nosotros */
   .subtitulo{
     font-family: 'Source Sans Pro', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centrar-elemento;
     font-size: 3rem;
     padding: 15px;
   }
