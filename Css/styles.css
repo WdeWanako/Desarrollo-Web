@@ -215,27 +215,30 @@ footer .social-links a:hover {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-.conteiner-contacto .parrafo {
+
+.parrafo {
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 1rem;
   padding: 10px;
 }
-.conteiner-contacto .mapa {
+
+.mapa {
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.conteiner-contacto .redes {
+
+.redes {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 30px;
 }
-.conteiner-contacto .redes a {
+.redes a {
   padding: 10px;
 }
 

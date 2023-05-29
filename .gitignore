@@ -1,0 +1,4 @@
+#En esto van todos los archivos que git va a ignorar
+
+#Ignora los archivos de tipo texto
+.txt
