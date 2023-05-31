@@ -281,6 +281,12 @@ footer .social-links a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+/* Media Querie*/
+@media (max-width: 767px) {
+  .image-grid {
+    flex-direction: column;
+  }
+}
 /* Contacto.html */
 /* Carrousel */
 .conteiner-contacto {
