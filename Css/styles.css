@@ -134,6 +134,7 @@ header nav ul .nav-link:hover:after {
   align-items: center;
 }
 .conteiner-aboutus .aboutUs-Img {
+  width: 40%;
   margin-right: 20px;
 }
 .conteiner-aboutus .aboutUs-texto {
@@ -319,6 +320,7 @@ footer .social-links a:hover {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 20px;
+  border-radius: 50px;
 }
 
 .parrafo {
