@@ -3,3 +3,14 @@ $color-verde: #2ebd2a;
 $fuente-titulo: 'Playfair Display', serif;
 $fuente-secundaria: 'Source Sans Pro', sans-serif;
 $negro: black;
+$color-degradado:#f5efae;
+$degradado: radial-gradient(circle farthest-side, $color-degradado , $color-header);
+
+$colores: (
+    'color-header': #ffdd00,
+    'color-degradado': #f5efae,
+    'color-verde':#2ebd2a,
+    'negro': black,
+    'degradado': radial-gradient(circle farthest-side, $color-degradado , $color-header)
+
+);

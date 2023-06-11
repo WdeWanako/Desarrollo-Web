@@ -3,13 +3,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $color-header;
-    color: $negro;
+    color:map-get($map:$colores , $key: 'negro' );
     padding: 1rem;
     min-height: 120px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     text-decoration: none;
-    background-image: radial-gradient(circle farthest-side, #f5efae, #ffdd00);
+    background-image: map-get($map: $colores, $key: 'degradado' );
   
     .logo {
       display: flex;
